@@ -13,12 +13,138 @@
 
 
 .menu {
-    &__btn {
-        display: none;
+  background-color: #424242;
+  padding: 20px;
+
+  &__btn {
+    display: none;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  &__link {
+    color: #DAA520;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: normal;
+    text-decoration: none;
+    transition: color .5s;
+    padding: 22px;
+
+    &:focus {
+      color: $focus;
     }
-    // font-size: 1.6rem;
+
+    &:hover {
+      color: #424242;
+      background-color: #DAA520;
+    }
+
+    &:active {
+      color: $active;
+    }
+  }
 }
 
+.img {
+  width: 900px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.link {
+  display: block;
+  width: 100%;
+  background-color: #DAA520;
+  color: #000000;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 24px;
+  font-style: normal;
+  text-decoration: none;
+  padding: 15px 30px 15px 30px;
+  text-align: center;
+  transition: color .5s;
+
+  &:focus {
+    color: $focus;
+  }
+
+  &:hover {
+    color: #DAA520;
+    background-color: #424242;
+  }
+
+  &:active {
+    color: $active;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 50px;
+  }
+}
+
+.title {
+  font-weight: bold;
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.subtext,
+.text {
+  font-weight: bold;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 70px;
+}
+
+// .text p {
+//   margin-bottom: 40px;
+// }
+
+.text span {
+  margin-bottom: 50px;
+  display: block;
+}
+
+.subtext {
+  text-align: center;
+  margin-bottom: 70px;
+  display: block;
+}
+
+.ol {
+  margin-bottom: 70px;
+}
+
+.li,
+.copy {
+  font-weight: bold;
+  font-size: 21px;
+  font-style: italic;
+  color: #000000;
+}
+
+.copy {
+  text-align: center;
+}
+
+.copy a {
+  color: blue;
+  text-decoration: underline;
+}
 
 /*медия всегда должны быть в низу */
 
@@ -90,4 +216,3 @@
         width: 100px;
     }
 }*/
-
