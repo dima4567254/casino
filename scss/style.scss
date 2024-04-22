@@ -60,6 +60,7 @@
   width: 900px;
   height: 500px;
   object-fit: cover;
+  margin-bottom: 50px;
 }
 
 .link {
@@ -75,6 +76,7 @@
   padding: 15px 30px 15px 30px;
   text-align: center;
   transition: color .5s;
+  text-transform: uppercase;
 
   &:focus {
     color: $focus;
@@ -100,6 +102,7 @@
   color: #000000;
   margin-bottom: 50px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .subtext,
