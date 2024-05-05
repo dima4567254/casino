@@ -3,27 +3,32 @@
 		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://sushi-bet-brasil.000webhostapp.com/</loc>
-	<lastmod>2024-05-08T09:11:20+01:00</lastmod>
+	<lastmod>2024-04-28T17:46:28+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://sushi-bet-brasil.000webhostapp.com/index.html</loc>
+	<lastmod>2024-04-28T17:46:28+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://sushi-bet-brasil.000webhostapp.com/how-to-play.html</loc>
-	<lastmod>2024-05-08T09:11:20+01:00</lastmod>
+	<lastmod>2024-04-28T17:46:28+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://sushi-bet-brasil.000webhostapp.com/promosi.html</loc>
-	<lastmod>2024-05-08T09:11:20+01:00</lastmod>
+	<lastmod>2024-04-28T17:46:28+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
-	<loc>https://sushi-bet-brasil.000webhostapp.com/skintoto-login.html</loc>
-	<lastmod>2024-05-08T09:11:20+01:00</lastmod>
+	<loc>https://sushi-bet-brasil.000webhostapp.com/sushi-login.html</loc>
+	<lastmod>2024-04-28T17:46:28+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
-	<loc>https://sushi-bet-brasil.000webhostapp.com/skintoto-slot.html</loc>
-	<lastmod>2024-05-08T09:11:20+01:00</lastmod>
+	<loc>https://sushi-bet-brasil.000webhostapp.com/sushi-slot.html</loc>
+	<lastmod>2024-04-28T17:46:28+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 </urlset>
