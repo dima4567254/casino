@@ -1,3 +1,3 @@
 RewriteEngine On
 RewriteCond %{HTTPS} off
-RewriteRule ^ https://sushi-bet-brasil.000webhostapp.com%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://sushi-casino-brazil.000webhostapp.com%{REQUEST_URI} [L,R=301]

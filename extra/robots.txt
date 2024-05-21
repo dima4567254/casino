@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
-Host: https://sushi-bet-brasil.000webhostapp.com/
-Sitemap: https://sushi-bet-brasil.000webhostapp.com/sitemap.xml
+Host: https://sushi-casino-brazil.000webhostapp.com/
+Sitemap: https://sushi-casino-brazil.000webhostapp.com/sitemap.xml
