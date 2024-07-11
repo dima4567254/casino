@@ -1,3 +1,29 @@
 RewriteEngine On
+
+# Устанавливаем тип контента для HTML-страниц
+<IfModule mod_mime.c>
+    AddType text/html .html .htm
+</IfModule>
+
+# Перенаправление с WWW на версию без WWW
+RewriteCond %{HTTP_HOST} ^www\.sushi-casino-brazil\.000webhostapp\.com [NC]
+RewriteRule ^(.*)$ https://sushi-casino-brazil.000webhostapp.com/$1 [L,R=301]
+
+# Перенаправление с HTTP на HTTPS
 RewriteCond %{HTTPS} off
-RewriteRule ^ https://sushi-casino-brazil.000webhostapp.com%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Перенаправление index.html на корень сайта
+RewriteCond %{THE_REQUEST} \s/index\.html[\s?] [NC]
+RewriteRule ^index\.html$ / [R=301,L]
+
+# Добавляем HTTP Strict-Transport-Security (HSTS)
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+
+# Добавляем политику безопасности контента (CSP)
+<IfModule mod_headers.c>
+    Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self'; ..."
+    
+    # Добавляем параметры X-Frame-Options
+    Header always append X-Frame-Options SAMEORIGIN
+</IfModule>
